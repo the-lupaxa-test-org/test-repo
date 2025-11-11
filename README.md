@@ -32,16 +32,62 @@
     <img src="https://img.shields.io/github/license/the-lupaxa-test-org/test-repo?color=blue&label=License&style=for-the-badge" alt="License"/>
   </a>
 
+  <br />
+
   <!-- Optional ecosystem-specific badges -->
   <!-- Python (PyPI) -->
   <a href="https://pypi.org/project/smartcache/">
-    <img src="https://img.shields.io/pypi/v/smartcache?color=blue&label=PyPI%20Version&style=for-the-badge" alt="PyPI Version"/>
+    <img src="https://img.shields.io/pypi/v/smartcache?style=for-the-badge&color=blue" alt="PyPI Version"/>
   </a>
+  <a href="#">
+    <img src="https://img.shields.io/pypi/dm/wolfsoftware.drawlines?style=for-the-badge&color=blue" alt="PyPI downloads" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/pepy/dt/wolfsoftware.drawlines?style=for-the-badge&color=blue" alt="PyPI downloads" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/pypi/status/wolfsoftware.drawlines?style=for-the-badge&color=blue" alt="PyPI status" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/pypi/pyversions/wolfsoftware.drawlines?style=for-the-badge&color=blue" alt="PyPI supported python versions" />
+  </a>
+
+  <br />
 
   <!-- Ruby (RubyGems) -->
   <a href="https://rubygems.org/gems/slackit">
-    <img src="https://img.shields.io/gem/v/slackit?style=for-the-badge&label=Gem%20Version" alt="Gem Version"/>
+    <img src="https://img.shields.io/gem/v/slackit?style=for-the-badge&color=blue" alt="Gem Version"/>
   </a>
+  <a href="https://rubygems.org/gems/slackit">
+    <img src="https://img.shields.io/gem/dt/slackit?style=for-the-badge&color=blue" alt="Gem Downloads"/>
+  </a>
+
+  <br />
+
+  <!-- Crates.io -->
+  <a href="#">
+    <img src="https://img.shields.io/crates/v/wolfsoftware-guessing-game?style=for-the-badge&color=blue" alt="Crates downloads" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/crates/d/wolfsoftware-guessing-game?style=for-the-badge&color=blue" alt="Crates downloads" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/crates/size/wolfsoftware-guessing-game?style=for-the-badge&color=blue" alt="Crates downloads" />
+  </a>
+
+  <br />
+
+  <!-- Dockerhub -->
+  <a href="https://hub.docker.com/r/library/ubuntu">
+    <img src="https://img.shields.io/docker/pulls/library/ubuntu?style=for-the-badge&color=blue" alt="Docker Pulls"/>
+  </a>
+  <a href="https://hub.docker.com/r/library/ubuntu">
+    <img src="https://img.shields.io/docker/v/library/ubuntu/latest?style=for-the-badge&color=blue" alt="Docker Version"/>
+  </a>
+  <a href="https://hub.docker.com/r/library/ubuntu">
+    <img src="https://img.shields.io/docker/image-size/library/ubuntu/latest?style=for-the-badge&color=blue" alt="Image Size"/>
+  </a>
+
 </p><!-- markdownlint-enable -->
 
 <h1 align="center">🧠 Repo name</h1>
