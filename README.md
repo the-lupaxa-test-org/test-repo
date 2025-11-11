@@ -1,7 +1,6 @@
 <!-- markdownlint-disable -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/the-lupaxa-project/branding/master/actions-toolbox/logo-transparent.png" alt="Project Logo" width="256"/><br/>
-  <img src="https://raw.githubusercontent.com/the-lupaxa-project/branding/master/actions-toolbox/text-transparent.png" alt="Project Logo" width="256"/><br/>
+  <img src="https://raw.githubusercontent.com/the-lupaxa-project/org-logos/master/orgs/actions-toolbox/readme-logo.png" alt="Project Logo" width="256"/><br/>
 
   <!-- Core project badges -->
   <a href="https://github.com/the-lupaxa-test-org/test-repo/actions">
