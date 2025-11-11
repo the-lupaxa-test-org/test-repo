@@ -1,0 +1,54 @@
+<!--
+🧩 Badge Reference Cheat Sheet
+Replace the placeholders below:
+{owner} → your GitHub org or username (e.g., templabs)
+{repo}  → the repo name (e.g., smartcache)
+{pkg}   → PyPI or RubyGem package name (e.g., smartcache or mygem)
+-->
+
+<p align="center">
+
+  <!-- Build Status -->
+  <a href="https://github.com/{owner}/{repo}/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/{owner}/{repo}/ci.yml?branch=main&label=build&style=for-the-badge" alt="Build Status"/>
+  </a>
+
+  <!-- Latest Release (GitHub or PyPI/RubyGems) -->
+  <!-- For Python -->
+  <a href="https://pypi.org/project/{pkg}/">
+    <img src="https://img.shields.io/pypi/v/{pkg}?color=blue&label=PyPI&style=for-the-badge" alt="PyPI Version"/>
+  </a>
+  <!-- For Ruby -->
+  <!-- <a href="https://rubygems.org/gems/{pkg}">
+    <img src="https://img.shields.io/gem/v/{pkg}?color=blue&label=Gem%20Version&style=for-the-badge" alt="Gem Version"/>
+  </a> -->
+
+  <!-- Supported Language Versions -->
+  <!-- For Python -->
+  <a href="https://pypi.org/project/{pkg}/">
+    <img src="https://img.shields.io/pypi/pyversions/{pkg}?style=for-the-badge" alt="Python Versions"/>
+  </a>
+  <!-- For Ruby -->
+  <!-- <img src="https://img.shields.io/badge/ruby-%3E%3D%202.7-blue?style=for-the-badge" alt="Ruby Version"/> -->
+
+  <!-- License -->
+  <a href="https://github.com/{owner}/{repo}/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/{owner}/{repo}?style=for-the-badge" alt="License"/>
+  </a>
+
+  <!-- Test Coverage (optional) -->
+  <a href="https://codecov.io/gh/{owner}/{repo}">
+    <img src="https://img.shields.io/codecov/c/github/{owner}/{repo}?style=for-the-badge&label=coverage" alt="Coverage"/>
+  </a>
+
+  <!-- Downloads (optional) -->
+  <!-- For Python -->
+  <a href="https://pypistats.org/packages/{pkg}">
+    <img src="https://img.shields.io/pypi/dm/{pkg}?color=blue&label=downloads&style=for-the-badge" alt="Downloads"/>
+  </a>
+  <!-- For Ruby -->
+  <!-- <a href="https://rubygems.org/gems/{pkg}">
+    <img src="https://img.shields.io/gem/dt/{pkg}?style=for-the-badge&label=downloads" alt="Gem Downloads"/>
+  </a> -->
+
+</p>

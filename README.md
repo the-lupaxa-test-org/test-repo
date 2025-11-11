@@ -1,26 +1,48 @@
 <!-- markdownlint-disable -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/the-lupaxa-test-org/branding/main/logos/test/logo.png" alt="Project Logo" width="256"/><br/>
-  <a href="#">
+
+  <!-- Core project badges -->
+  <a href="https://github.com/the-lupaxa-test-org/test-repo/actions">
     <img src="https://img.shields.io/github/actions/workflow/status/the-lupaxa-test-org/test-repo/cicd.yml?branch=main&label=build%20status&style=for-the-badge" alt="Build Status"/>
   </a>
-  <a href="#">
-    <img src="https://img.shields.io/github/license/the-lupaxa-test-org/test-repo?color=blue&label=License&style=for-the-badge" alt="License"/>
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/github/created-at/the-lupaxa-test-org/test-repo?color=blue&label=Created&style=for-the-badge" alt="Created"/>
-  </a><br/>
-  <a href="#">
+  <a href="https://github.com/the-lupaxa-test-org/test-repo/releases/latest">
     <img src="https://img.shields.io/github/v/release/the-lupaxa-test-org/test-repo?color=blue&label=Latest%20Release&style=for-the-badge" alt="Latest Release"/>
   </a>
-  <a href="#">
+  <a href="https://github.com/the-lupaxa-test-org/test-repo/releases">
     <img src="https://img.shields.io/github/release-date/the-lupaxa-test-org/test-repo?color=blue&label=Released&style=for-the-badge" alt="Release Date"/>
   </a>
-  <a href="#">
+  <a href="https://github.com/the-lupaxa-test-org/test-repo/commits/main">
     <img src="https://img.shields.io/github/commits-since/the-lupaxa-test-org/test-repo/latest.svg?color=blue&style=for-the-badge" alt="Commits Since Release"/>
   </a>
-</p>
-<!-- markdownlint-enable -->
+
+  <br/>
+
+  <!-- Community & ecosystem badges -->
+  <a href="https://github.com/the-lupaxa-test-org/test-repo/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/the-lupaxa-test-org/test-repo?style=for-the-badge&color=blue" alt="Contributors"/>
+  </a>
+  <a href="https://github.com/the-lupaxa-test-org/test-repo/issues">
+    <img src="https://img.shields.io/github/issues/the-lupaxa-test-org/test-repo?style=for-the-badge&color=blue" alt="Open Issues"/>
+  </a>
+  <a href="https://github.com/the-lupaxa-test-org/test-repo/pulls">
+    <img src="https://img.shields.io/github/issues-pr/the-lupaxa-test-org/test-repo?style=for-the-badge&color=blue" alt="Open Pull Requests"/>
+  </a>
+  <a href="https://github.com/the-lupaxa-test-org/test-repo/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/the-lupaxa-test-org/test-repo?color=blue&label=License&style=for-the-badge" alt="License"/>
+  </a>
+
+  <!-- Optional ecosystem-specific badges -->
+  <!-- Python (PyPI) -->
+  <a href="https://pypi.org/project/smartcache/">
+    <img src="https://img.shields.io/pypi/v/smartcache?color=blue&label=PyPI%20Version&style=for-the-badge" alt="PyPI Version"/>
+  </a>
+
+  <!-- Ruby (RubyGems) -->
+  <a href="https://rubygems.org/gems/slackit">
+    <img src="https://img.shields.io/gem/v/slackit?style=for-the-badge&label=Gem%20Version" alt="Gem Version"/>
+  </a>
+</p><!-- markdownlint-enable -->
 
 <h1 align="center">🧠 Repo name</h1>
 
