@@ -1,0 +1,33 @@
+name: CI/CD (playground)
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+  workflow_dispatch: {}
+
+jobs:
+  test-run:
+    name: Test workflow runs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show runner info
+        run: |
+          echo "🎉 Workflow triggered successfully!"
+          echo "Repository: ${{ github.repository }}"
+          echo "Ref: ${{ github.ref }}"
+          echo "Event: ${{ github.event_name }}"
+          echo "Actor: ${{ github.actor }}"
+
+      - name: Placeholder step
+        run: |
+          echo "This is a playground workflow. Replace me with real build/test steps later."
