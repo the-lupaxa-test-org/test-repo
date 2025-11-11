@@ -1,13 +1,3 @@
-Here’s your updated and cleaned-up README.md, matching your preferred layout —
-✅ streamlined badge section (no “policy clutter”),
-✅ polished structure,
-✅ “Project Policies” section moved further down with clean links to your org-level .github repo.
-
-Everything else — your tone, structure, and hierarchy — stays intact.
-
-⸻
-
-
 <!-- markdownlint-disable -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/the-lupaxa-test-org/branding/main/logos/test/logo.png" alt="Project Logo" width="256"/><br/>
@@ -32,23 +22,21 @@ Everything else — your tone, structure, and hierarchy — stays intact.
 </p>
 <!-- markdownlint-enable -->
 
-<h1 align="center">🧠 SmartCache</h1>
+<h1 align="center">🧠 Repo name</h1>
 
-> A fast, lightweight, and extensible in-memory caching library for Python — built for developers who care about performance, transparency, and testability.
+> a short 1 line repo description.
 
 ---
 
 ## ✨ Overview
 
-**SmartCache** is a simple but powerful caching utility that lets you cache expensive function calls or arbitrary data structures in-memory with time-to-live (TTL), size limits, and optional persistence.  
-It’s ideal for data pipelines, microservices, and CLI tools that need a zero-dependency, drop-in cache mechanism.
+**Repo Name** has a longer description.
 
-✅ Lightweight – pure Python, no external dependencies  
-✅ Transparent – decorators and explicit cache objects both supported  
-✅ Flexible – TTL, size limit, auto-eviction, and statistics  
-✅ Tested – 100% test coverage with type hints and linting  
-✅ Safe – thread-safe design for concurrent access  
-
+✅ Item 1 
+✅ Item 2 
+✅ Item 3 
+✅ Item 3 
+✅ Item 4 
 ---
 
 ## 🚀 Installation
@@ -61,14 +49,15 @@ Or install from source:
 git clone https://github.com/wolfsoftware/smartcache.git
 cd smartcache
 pip install .
-
+```
 
 ⸻
 
 🧩 Quick Start
 
-Example 1 — Decorator Usage
+Example 1
 
+```python
 from smartcache import cache
 
 @cache(ttl=60)
@@ -78,16 +67,18 @@ def slow_function(x):
 
 print(slow_function(10))  # First call — computes
 print(slow_function(10))  # Cached result
+```
 
-Example 2 — Manual Cache Object
+Example 2
 
+```python
 from smartcache import Cache
 
 cache = Cache(max_items=100, ttl=30)
 
 cache.set("user_123", {"name": "Alice", "role": "admin"})
 print(cache.get("user_123"))
-
+```
 
 ⸻
 
