@@ -1,41 +1,36 @@
+Here’s your updated and cleaned-up README.md, matching your preferred layout —
+✅ streamlined badge section (no “policy clutter”),
+✅ polished structure,
+✅ “Project Policies” section moved further down with clean links to your org-level .github repo.
+
+Everything else — your tone, structure, and hierarchy — stays intact.
+
+⸻
+
 
 <!-- markdownlint-disable -->
 <p align="center">
-      <img src="https://raw.githubusercontent.com/the-lupaxa-test-org/branding/main/logos/test/logo.png" alt="Project Logo" width="256"/>
-    <br />
-    <a href="#">
-        <img src="https://img.shields.io/github/actions/workflow/status/CICDToolbox/shellcheck/cicd.yml?branch=master&label=build%20status&style=for-the-badge" alt="Github Build Status" />
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/github/license/CICDToolbox/shellcheck?color=blue&label=License&style=for-the-badge" alt="License">
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/github/created-at/CICDToolbox/shellcheck?color=blue&label=Created&style=for-the-badge" alt="Created">
-    </a>
-    <br />
-    <a href="#">
-        <img src="https://img.shields.io/github/v/release/CICDToolbox/shellcheck?color=blue&label=Latest%20Release&style=for-the-badge" alt="Release">
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/github/release-date/CICDToolbox/shellcheck?color=blue&label=Released&style=for-the-badge" alt="Released">
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/github/commits-since/CICDToolbox/shellcheck/latest.svg?color=blue&style=for-the-badge" alt="Commits since release">
-    </a>
-    <br />
-    <a href="https://github.com/templabs/.github/blob/master/CODE_OF_CONDUCT.md">
-        <img src="https://img.shields.io/badge/Code%20of%20Conduct-blue?style=for-the-badge" />
-    </a>
-    <a href="https://github.com/templabs/.github/blob/master/.github/CONTRIBUTING.md">
-        <img src="https://img.shields.io/badge/Contributing-blue?style=for-the-badge" />
-    </a>
-    <a href="https://github.com/templabs/.github/blob/master/.github/SECURITY.md">
-        <img src="https://img.shields.io/badge/Report%20Security%20Concern-blue?style=for-the-badge" />
-    </a>
-    <a href="">
-        <img src="https://img.shields.io/badge/Get%20Support-blue?style=for-the-badge" />
-    </a>
+  <img src="https://raw.githubusercontent.com/the-lupaxa-test-org/branding/main/logos/test/logo.png" alt="Project Logo" width="256"/><br/>
+  <a href="#">
+    <img src="https://img.shields.io/github/actions/workflow/status/CICDToolbox/shellcheck/cicd.yml?branch=master&label=build%20status&style=for-the-badge" alt="Build Status"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/github/license/CICDToolbox/shellcheck?color=blue&label=License&style=for-the-badge" alt="License"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/github/created-at/CICDToolbox/shellcheck?color=blue&label=Created&style=for-the-badge" alt="Created"/>
+  </a><br/>
+  <a href="#">
+    <img src="https://img.shields.io/github/v/release/CICDToolbox/shellcheck?color=blue&label=Latest%20Release&style=for-the-badge" alt="Latest Release"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/github/release-date/CICDToolbox/shellcheck?color=blue&label=Released&style=for-the-badge" alt="Release Date"/>
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/github/commits-since/CICDToolbox/shellcheck/latest.svg?color=blue&style=for-the-badge" alt="Commits Since Release"/>
+  </a>
 </p>
+<!-- markdownlint-enable -->
 
 <h1 align="center">🧠 SmartCache</h1>
 
@@ -66,7 +61,7 @@ Or install from source:
 git clone https://github.com/wolfsoftware/smartcache.git
 cd smartcache
 pip install .
-```
+
 
 ⸻
 
@@ -74,7 +69,6 @@ pip install .
 
 Example 1 — Decorator Usage
 
-```python
 from smartcache import cache
 
 @cache(ttl=60)
@@ -84,18 +78,16 @@ def slow_function(x):
 
 print(slow_function(10))  # First call — computes
 print(slow_function(10))  # Cached result
-```
 
 Example 2 — Manual Cache Object
 
-```python
 from smartcache import Cache
 
 cache = Cache(max_items=100, ttl=30)
 
 cache.set("user_123", {"name": "Alice", "role": "admin"})
 print(cache.get("user_123"))
-```
+
 
 ⸻
 
@@ -182,21 +174,33 @@ All contributions must pass:
 	•	Type checks: mypy smartcache
 	•	Tests: pytest
 
-Please see CONTRIBUTING.md￼ for details.
+See our Contributing Guide￼ for more details.
 
 ⸻
 
 🛡️ Security
 
 If you discover a vulnerability, please do not open a public issue.
-Instead, email: security@wolfsoftware.com￼
+Instead, email: security@templabs.dev￼
+
+For details, see the Security Policy￼.
+
+⸻
+
+📜 Project Policies
+
+This project follows the shared policies and community standards defined at the organization level:
+	•	Code of Conduct￼
+	•	Contributing Guidelines￼
+	•	Security Policy￼
+	•	Support Policy￼
 
 ⸻
 
 🧾 License
 
 Licensed under the MIT License￼.
-Copyright © 2025 Wolf Software Limited￼
+© 2025 TempLabs — Open Source Initiative
 
 ⸻
 
@@ -206,3 +210,4 @@ Copyright © 2025 Wolf Software Limited￼
 	•	🧰 Related Tools￼
 	•	💬 Discussions￼
 
+---
