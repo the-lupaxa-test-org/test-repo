@@ -1,7 +1,7 @@
 
 <!-- markdownlint-disable -->
 <p align="center">
-      <img src="https://raw.githubusercontent.com/the-lupaxa-test-org/branding/blob/main/logos/test/logo.png" alt="Project Logo" width="256"/>
+      <img src="https://raw.githubusercontent.com/the-lupaxa-test-org/branding/main/logos/test/logo.png" alt="Project Logo" width="256"/>
     <br />
     <a href="#">
         <img src="https://img.shields.io/github/actions/workflow/status/CICDToolbox/shellcheck/cicd.yml?branch=master&label=build%20status&style=for-the-badge" alt="Github Build Status" />
