@@ -2,22 +2,22 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/the-lupaxa-test-org/branding/main/logos/test/logo.png" alt="Project Logo" width="256"/><br/>
   <a href="#">
-    <img src="https://img.shields.io/github/actions/workflow/status/CICDToolbox/shellcheck/cicd.yml?branch=master&label=build%20status&style=for-the-badge" alt="Build Status"/>
+    <img src="https://img.shields.io/github/actions/workflow/status/the-lupaxa-test-org/test-repo/cicd.yml?branch=master&label=build%20status&style=for-the-badge" alt="Build Status"/>
   </a>
   <a href="#">
-    <img src="https://img.shields.io/github/license/CICDToolbox/shellcheck?color=blue&label=License&style=for-the-badge" alt="License"/>
+    <img src="https://img.shields.io/github/license/the-lupaxa-test-org/test-repo?color=blue&label=License&style=for-the-badge" alt="License"/>
   </a>
   <a href="#">
-    <img src="https://img.shields.io/github/created-at/CICDToolbox/shellcheck?color=blue&label=Created&style=for-the-badge" alt="Created"/>
+    <img src="https://img.shields.io/github/created-at/the-lupaxa-test-org/test-repo?color=blue&label=Created&style=for-the-badge" alt="Created"/>
   </a><br/>
   <a href="#">
-    <img src="https://img.shields.io/github/v/release/CICDToolbox/shellcheck?color=blue&label=Latest%20Release&style=for-the-badge" alt="Latest Release"/>
+    <img src="https://img.shields.io/github/v/release/the-lupaxa-test-org/test-repo?color=blue&label=Latest%20Release&style=for-the-badge" alt="Latest Release"/>
   </a>
   <a href="#">
-    <img src="https://img.shields.io/github/release-date/CICDToolbox/shellcheck?color=blue&label=Released&style=for-the-badge" alt="Release Date"/>
+    <img src="https://img.shields.io/github/release-date/the-lupaxa-test-org/test-repo?color=blue&label=Released&style=for-the-badge" alt="Release Date"/>
   </a>
   <a href="#">
-    <img src="https://img.shields.io/github/commits-since/CICDToolbox/shellcheck/latest.svg?color=blue&style=for-the-badge" alt="Commits Since Release"/>
+    <img src="https://img.shields.io/github/commits-since/the-lupaxa-test-org/test-repo/latest.svg?color=blue&style=for-the-badge" alt="Commits Since Release"/>
   </a>
 </p>
 <!-- markdownlint-enable -->
