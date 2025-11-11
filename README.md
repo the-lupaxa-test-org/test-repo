@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/the-lupaxa-test-org/branding/main/logos/test/logo.png" alt="Project Logo" width="256"/><br/>
   <a href="#">
-    <img src="https://img.shields.io/github/actions/workflow/status/the-lupaxa-test-org/test-repo/cicd.yml?branch=master&label=build%20status&style=for-the-badge" alt="Build Status"/>
+    <img src="https://img.shields.io/github/actions/workflow/status/the-lupaxa-test-org/test-repo/cicd.yml?branch=main&label=build%20status&style=for-the-badge" alt="Build Status"/>
   </a>
   <a href="#">
     <img src="https://img.shields.io/github/license/the-lupaxa-test-org/test-repo?color=blue&label=License&style=for-the-badge" alt="License"/>
